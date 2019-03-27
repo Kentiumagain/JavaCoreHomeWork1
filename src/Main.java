@@ -1,6 +1,6 @@
-public class Main {
+﻿public class Main {
     public static void main(String[] args) {
-
+//123
         Course c1 = new Course(new Obstacle[]{new Wall(2),new Cross(100)});
         Course c2 = new Course(new Obstacle[]{new Wall(6),new Cross(30),new Water(40), new Cross(30)});
         Team t1 = new Team("В мире животных",new Competitor[]{new Cat("Пупенхоулз"),new Cat("Стокгольм")
